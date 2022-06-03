@@ -1,3 +1,12 @@
+#best way
+a,b=map(int,input().split())
+if a<b:
+    t=b-a
+else:
+    t=b+24-a
+print('O JOGO DUROU %d HORA(S)' %t)
+
+#another way
 a,b=map(int, input().split())
 if a==b:
     print('O JOGO DUROU 24 HORA(S)')
